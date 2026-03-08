@@ -2,6 +2,7 @@
 
     --colorprimario: #F8F9FA;
     --colorsecundario: #1B263B;
+    --colorterciario: #D4AF37;
 }
 
 .ContenedorPrincipal {
@@ -14,12 +15,12 @@
     padding: 0;
     width:100%;
     height:100%;
-    position: fixed;
 }
 
 i {
-    color: var(--colorprimario);
-    font-size: xx-large;
+     color: var(--colorterciario);
+    font-size: 200%;
+    cursor: pointer;
 }
 
  .MenuTop {
@@ -33,7 +34,7 @@ i {
 }
 
 .MenuTop {
-    grid-column: span 4;
+    grid-column: 1 / -1;
 }
 
 .MenuTop header {
@@ -62,11 +63,26 @@ i {
     padding: 0 4%;
 
 }
-h1, h2 {
-    margin: 0;
-    padding: 0;
+
+h1 {
+    padding: 0 4%;
     color: var(--colorprimario);
     white-space: nowrap;
+    cursor: pointer;
+}
+
+.menucenter a {
+    text-decoration: none;
+    color: var(--colorprimario);
+    padding: 0 4%;
+    font-size: 1.2rem;
+    letter-spacing: 10%;
+}
+
+.menucenter a:hover {
+
+    color: var(--colorterciario);
+
 }
 
 
