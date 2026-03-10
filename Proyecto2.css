@@ -99,18 +99,19 @@ body {
 
 .hero h2 {
 
-    color:var(--colorsecundario);
+    color:var(--colorprimario);
     letter-spacing: 3%;
-    padding: 0 4%;
+    padding: 6%;
     font-size: 400%;
     text-align: center;
+    white-space: nowrap;
 }
 
 .hero p {
 
-    color: var(--colorsecundario);
+    color: var(--colorprimario);
     letter-spacing: 3%;
-    padding: 0 4%;
+    padding: 2%;
     font-size: 150%;
     text-align: center;
 }
@@ -166,4 +167,10 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: linear-gradient(rgba(46, 55, 65, 0.8), rgba(46,55,65,0.8)),
+    url(mathematical-physical-formulas-against-background-260nw-2602477871copia.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
