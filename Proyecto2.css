@@ -105,6 +105,7 @@ body {
     font-size: 400%;
     text-align: center;
     white-space: nowrap;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
 }
 
 .hero p {
@@ -114,6 +115,7 @@ body {
     padding: 2%;
     font-size: 150%;
     text-align: center;
+    text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
 }
 
 .hero button {
@@ -136,8 +138,8 @@ body {
 
 .hero button:hover {
 
-      color: var(--colorterciario);
-    background-color: var(--colorsecundario);
+    color: var(--colorsecundario);
+    background-color: var(--colorterciario);
     border-radius: 30%;
     border: none;
     cursor: pointer;
@@ -147,7 +149,7 @@ body {
     font-weight: 700;
     font-style: italic;
     text-transform: uppercase;
-    font-size: 300%;
+    font-size: 250%;
     box-shadow: 2px 2px 2px 1px var(--colorsecundario);
     
 

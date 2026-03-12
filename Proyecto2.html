@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="Proyecto2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://unpkg.com/scrollreveal"></script>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <title>Clases de Física y Matemática / Gabriel Medina</title>
@@ -48,5 +49,21 @@
 
 <footer>
 </footer>
+
+<script>
+
+ScrollReveal({
+    distance: '70px',
+    duration: 1200,
+    easing: 'ease-out',
+    reset: false,
+});
+
+ScrollReveal().reveal('.hero h2', { origin: 'bottom' });
+ScrollReveal().reveal('.hero p', { origin: 'bottom', delay: 200 });
+ScrollReveal().reveal('.hero button', { origin: 'top', delay: 800 });
+
+
+</script>
 </body>
 </html>
