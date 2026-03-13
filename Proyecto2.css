@@ -16,6 +16,7 @@
     width:100%;
     height:100%;
 }
+/*Seccion MenuTop*/
 
 i {
      color: var(--colorterciario);
@@ -95,7 +96,7 @@ body {
     text-transform: uppercase;
 }
 
-/*Hero*/
+/*Seccion Hero*/
 
 .hero h2 {
 
@@ -157,7 +158,7 @@ body {
 
 .hero {
 
-    min-height: 70vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -175,4 +176,52 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+ /*Seccion Estadisticas*/
+
+.estadisticas {
+
+    min-height: 100vh;
+    min-width: 50vw;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.estadisticas div {
+
+    background-color: var(--colorterciario);
+    border-radius: 10%;
+    border: solid 1px var(--colorsecundario);
+    height: 50vh;
+    width: 30vw;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease;
+}
+
+.estadisticas div:hover {
+
+    transform: translateY(-10px) scale(1.1);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+
+}
+
+.estadisticas h3 {
+
+    font-size: 2rem;
+    color: var(--colorsecundario);
+    margin: 0;
+
+}
+
+.estadisticas p {
+
+    font-size: 1.5rem;
+    color: var(--colorsecundario);
+    text-align: center;
+
+
 }
