@@ -22,7 +22,7 @@
 
     <nav class="menucenter">
 
-        <a href="">Metodología</a>
+        <a href="#estadisticas">Estadisticas</a>
         <a href="">Materias</a>
         <a href="">Opiniones</a>
         <a href="">Contacto</a>
@@ -38,21 +38,24 @@
             <h2>Clases de Física y Matemática</h2>
             <p>Explicaciones claras en ambiente distendido</p>
             <div class="button-scroll">
-                <button>Agendate</button>
+                <button>Reservar Clase</button>
                 </div>
         </section>
-        <section class="estadisticas">
+        <section class="estadisticas" id="estadisticas">
             <div class="estadisticas-inner">
-                <div>
-                <h3>3+</h3>
-                <p>Años de experiencia</p>
-            </div>
-            <div>
-                <p>Gran % de efectividad</p>
-            </div>
-            <div>
-                <p>Salvás y disfrutás algo que parecía imposible</p>
-            </div>
+                <div class="estadisticas1">
+                    <h3>3+</h3>
+                    <p>Años de experiencia</p>
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <div class="estadisticas2">
+                    <p>Gran % de efectividad</p>
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <div class="estadisticas3">
+                    <p>Salvás y disfrutás algo que parecía imposible</p>
+                    <i class="fa-solid fa-face-smile"></i>
+                </div>
             </div>
         </section>
         <section class="opiniones">
@@ -63,21 +66,6 @@
 <footer>
 </footer>
 
-<script>
-
-ScrollReveal({
-    distance: '70px',
-    duration: 1200,
-    easing: 'ease-out',
-    reset: false,
-});
-
-ScrollReveal().reveal('.hero h2', { origin: 'bottom' });
-ScrollReveal().reveal('.hero p', { origin: 'bottom', delay: 200 });
-ScrollReveal().reveal('.hero .button-scroll', { origin: 'top', delay: 800 });
-ScrollReveal().reveal('.estadisticas', { origin: 'bottom', delay: 300});
-
-
-</script>
+<script src="Proyecto2.js"> </script>
 </body>
 </html>
