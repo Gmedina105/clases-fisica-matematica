@@ -39,3 +39,26 @@ reserva.addEventListener("click", () =>
         contacto.scrollIntoView({behavior:"smooth"});    
 } );
 
+/*Val del formulario*/
+
+const form = document.querySelector(".formulario");
+
+form.addEventListener("submit", (e) => {
+    
+    e.preventDefault()
+
+    const nombre = document.querySelector("#nombre");
+    const email = document.querySelector("#email");
+    const telefono = document.querySelector("#telefono");
+
+if (nombre.value === "" || email.value === "" || telefono.value === "") {
+
+    alert("Rellenar los campos");
+}
+
+else {
+
+    alert("Formulario completo!")
+};
+});
+
