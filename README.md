@@ -54,6 +54,10 @@ Archivos incluidos:
 
 Los datos incluidos en el repositorio son ficticios y se usan únicamente como demostración.
 
+## Nota sobre el proceso
+
+Utilicé inteligencia artificial como herramienta de apoyo durante el desarrollo, principalmente para estudiar conceptos, depurar errores y mejorar decisiones de estructura y diseño.
+
 ## Cómo ejecutar el proyecto
 
 1. Clonar este repositorio:
@@ -61,6 +65,3 @@ Los datos incluidos en el repositorio son ficticios y se usan únicamente como d
 ```bash
 git clone https://github.com/Gmedina105/First-Website.git
 
-## Nota sobre el proceso
-
-Utilicé inteligencia artificial como herramienta de apoyo durante el desarrollo, principalmente para estudiar conceptos, depurar errores y mejorar decisiones de estructura y diseño.
